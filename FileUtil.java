@@ -24,7 +24,7 @@ public class FileUtil {
         }
         OutputStreamWriter osw = new OutputStreamWriter(fos, "UTF-8");
     	osw.write(abc);
-        osw.write(",\n");
+        osw.write("\n");
         osw.close();
 	} 
 	 public static void main(String[] args) throws Exception {
